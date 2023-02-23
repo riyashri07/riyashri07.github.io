@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+
+.about.section {
+background: linear-gradient(45deg, rgba(2,15,44,1) 100%, rgba(43,80,71,1) 100%);
+ height: auto;
+ padding: 40px 0px 60px 0px;
+ display: flex;
+ flex-direction: column;
+ gap: 40px;
+ color: white;
+ font-size: 20px;
+ font-family: 'Sacramento', cursive;
+}
+
+.aboutH1 {
+ text-align: center;
+ color: white;
+ font-size: 40px;
+}
+
+.aboutWrapper {
+ border: 0px solid wheat;
+ width: 90%;
+ margin: auto;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.aboutWrapperDiv {
+  border-radius: 10px;
+  background: linear-gradient(45deg, #020f2c 0%, #355f4d 100%);
+  box-shadow: 2px 2px 2px rgba(18, 58, 255, 0.4), -2px -2px 2px rgba(30, 223, 30, 0.509);
+ width: 90%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 20px;
+ font-size: 20px;
+ line-height: 25px;
+ text-align: justify;
+}
+
+.aboutMe {
+  font-family: system-ui;
+ width: 90%;
+ /* background-color: #1a1a1a; */
+ color: white;
+ padding: 20px;
+ border-radius: 5px;
+}
+
+.about-socialLink {
+ width: 25%;
+ height: 82px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.about-socialLink img {
+ width: 20%;
+ cursor: pointer;
+}
+
+.about-socialLink img:hover {
+ transform: scale(1.1);
+ -moz-transition: all 0.2s ease-in-out;
+ -o-transition: all 0.2s ease-in-out;
+ -webkit-transition: all 0.2s ease-in-out;
+ transition: all 0.2s ease-in-out;
+}
+
+.aboutWrapperImg {
+ width: 40%;
+}
+
+.aboutWrapperImg > img {
+ display: block;
+ margin: auto;
+}
+
+/* meidum screens */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+ .aboutMe {
+  /* width: 100%; */
+  background-color: #1a1a1a;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+ }
+
+ .about-socialLink {
+  width: 30%;
+ }
+}
+
+/* small screens */
+@media all and (min-width: 280px) and (max-width: 767px) {
+ .aboutWrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  /* gap: 20px; */
+  /* width: 100%; */
+  margin: auto;
+ }
+
+ .aboutWrapperImg {
+  width: 40%;
+  margin: auto;
+ }
+
+ .aboutWrapperDiv {
+  width: 90%;
+  margin: auto;
+ }
+
+ .aboutMe {
+  width: 100%;
+  background-color: #1a1a1a;
+  color: white;
+  padding: 0px;
+  border-radius: 5px;
+ }
+
+ .about-socialLink {
+  width: 50%;
+ }
+
+ .about-socialLink img {
+  width: 25%;
+ }
+}
+
+.text-divider-about {
+  width: 80%;
+  margin: 2rem auto;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  color: white;
+}
+
+.text-divider-about span {
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  padding: 0 1rem;
+}
+
+.text-divider-about::before, .text-divider-about::after {
+  content: '';
+  display: inline-block;
+  height: 1px;
+  width: 20px;
+  flex-grow: 1;
+  background: hsl(240, 4%, 90%);
+  vertical-align: middle;
+}

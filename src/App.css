@@ -1,38 +1,100 @@
+@import url("https://fonts.cdnfonts.com/css/general-sans");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+
+body {
+ border: 0px solid red;
+ font-family: "General Sans", sans-serif;
+ background-color: #1a1a1a;
+ color: white;
+ height: 700px;
+ 
+}
 .App {
-  text-align: center;
+ /* text-align: center; */
+}
+/* a {
+ color: white;
+}
+nav {
+ border: 0px solid green;
+ display: flex;
+ justify-content: space-between;
+}
+.nav_one {
+ border: 0px solid yellow;
+ display: flex;
+ justify-content: space-around;
+ width: 13rem;
+ margin-left: 140px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav_one > h2 {
+ font-size: 24px;
+ line-height: 29px;
+ font-weight: 300;
+ transition: all 0.5s ease-in-out;
+}
+.nav_one > h2:hover {
+ color: #ffd660;
+}
+.nav_two {
+ border: 0px solid peru;
+ width: 25rem;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ margin-right: 110px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav_two > a {
+ position: relative;
+ text-decoration: none;
+ border-bottom: 1px solid #1a1a1a;
+ font-family: "Source Code Pro", monospace;
+ transition: all 0.5s ease-in-out;
+ padding-bottom: 5px;
+}
+.nav_two > a:hover {
+ border-bottom: 1px solid white;
+ transform: scaleX(1) scaleY(1) scaleZ(1) rotateX(0deg) rotateY(0deg)
+  rotateZ(0deg) translateX(0px) translateY(-8px) translateZ(0px) skewX(0deg)
+  skewY(0deg);
+}
+ */
+
+/* Firefox */
+* {
+  scrollbar-width:thin;
+  scrollbar-color: #1a1a1a #6a6a6a;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+  width: 10px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 3px;
+  background-color: #1a1a1a;
 }
 
-.App-link {
-  color: #61dafb;
+*::-webkit-scrollbar-track:hover {
+  background-color: #1a1a1a;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+*::-webkit-scrollbar-track:active {
+  background-color: #1a1a1a;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #6a6a6a;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #5a5a5a;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #4a4a4a;
 }

@@ -1,0 +1,183 @@
+{
+ "language_framework": [
+  {
+   "id": "1",
+   "title": "HTML",
+   "src": "https://lh5.googleusercontent.com/NNYMLTcl7nPRNkNErJz17gHsCD8KsXkHGmuXyxwdftUB9QURREAPClWjk7YCLKd_jKs=w2400"
+  },
+  {
+   "id": "2",
+   "title": "CSS",
+   "src": "https://lh3.googleusercontent.com/04faxbvpOV639ZOhGpv3WQLESrzUUKGWAtSEarwiw8EGjW5E636zuPmpNHl-gJf9aH0=w2400"
+  },
+  {
+   "id": "3",
+   "title": "JavaScript",
+   "src": "https://lh3.googleusercontent.com/1ZPUcY76TcoA-qYiCXERe4lTj6FoJgXDR_5_-aFYI78tXYGUp5hmLxJdlbgnbh_lpHg=w2400"
+  },
+  {
+   "id": "4",
+   "title": "React Js",
+   "src": "https://lh6.googleusercontent.com/fXw1iHarB3XhTJGG3I4dty4bkmZeI0b_99ns5PvOwHYVhNJFh63biABfNIxB8D_0zpY=w2400"
+  },
+  {
+   "id": "4.1",
+   "title": "Chakra UI",
+   "src": "https://lh3.googleusercontent.com/sorkqLEqIwFlWRlnTcZoEXqWls90FK-Sr2SqVqqk0nxaytIUTad0_99v0deP-EhaNEY=w2400"
+  },
+  {
+   "id": "5",
+   "title": "Redux",
+   "src": "https://lh5.googleusercontent.com/fIY8_nCkUbVDqzQA_RNU_H7u6X3hKQB9hm89AoK_6R4s3nGcUqLiK5UEJaNBlOksqVI=w2400"
+  },
+  {
+   "id": "6",
+   "title": "TypeScript",
+   "src": "https://lh6.googleusercontent.com/s2qColQxmPloRaM3bC5MmqqRwd6gBqcPFGy3aOpIsxnvW_vqoiaTYP0sk9qDHvHxU2E=w2400"
+  }
+ ],
+ "tools": [
+  {
+   "id": "t1",
+   "title": "VS Code",
+   "src": "https://lh5.googleusercontent.com/5ES-Ty5oZV246Psq5ABbOGxOn3MN5piHduRfeQRlXNj3aAW32v7K9rHYaSqdvOjFFfQ=w2400"
+  },
+  {
+   "id": "t2",
+   "title": "GitHub",
+   "src": "https://cdn-icons-png.flaticon.com/512/733/733553.png"
+  },
+  {
+   "id": "t3",
+   "title": "Netlify",
+   "src": "https://www.vectorlogo.zone/logos/netlify/netlify-icon.svg"
+  },
+  {
+   "id": "t4",
+   "title": "Postman",
+   "src": "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
+  }
+ ],
+ "projects": [
+  {
+   "id": "p1",
+   "image": "",
+   "title": "",
+   "description": "Homedecor is an e-commerce platform that offers a wide range of home decor products. User-friendly interface, easy browsing, filtering and payment options. Built with React, and json server.",
+   "tech_stack": [
+    {
+     "id": "t1",
+     "title": "React",
+     "src": "https://lh6.googleusercontent.com/fXw1iHarB3XhTJGG3I4dty4bkmZeI0b_99ns5PvOwHYVhNJFh63biABfNIxB8D_0zpY=w2400"
+    },
+    {
+     "id": "t2",
+     "title": "Chakra UI",
+     "src": "https://lh3.googleusercontent.com/sorkqLEqIwFlWRlnTcZoEXqWls90FK-Sr2SqVqqk0nxaytIUTad0_99v0deP-EhaNEY=w2400"
+    },
+    {
+     "id": "t3",
+     "title": "Redux",
+     "src": "https://lh5.googleusercontent.com/fIY8_nCkUbVDqzQA_RNU_H7u6X3hKQB9hm89AoK_6R4s3nGcUqLiK5UEJaNBlOksqVI=w2400"
+    },
+    {
+     "id": "t4",
+     "src": "https://lh3.googleusercontent.com/1ZPUcY76TcoA-qYiCXERe4lTj6FoJgXDR_5_-aFYI78tXYGUp5hmLxJdlbgnbh_lpHg=w2400",
+     "title": "JavaScript"
+    },
+    {
+     "id": "t5",
+     "src": "https://lh5.googleusercontent.com/NNYMLTcl7nPRNkNErJz17gHsCD8KsXkHGmuXyxwdftUB9QURREAPClWjk7YCLKd_jKs=w2400",
+     "title": "HTML"
+    },
+    {
+     "id": "t6",
+     "src": "https://lh3.googleusercontent.com/04faxbvpOV639ZOhGpv3WQLESrzUUKGWAtSEarwiw8EGjW5E636zuPmpNHl-gJf9aH0=w2400",
+     "title": "CSS"
+    }
+   ],
+   "github": "",
+   "deploy": ""
+  },
+  {
+   "id": "p2",
+   "image": "",
+   "title": "",
+   "description": " is a cloud-based survey application that assists users in the creation, distribution, and analysis of surveys. To boost response rates, users can send surveys to respondents and publish them on their websites and social media accounts.",
+   "tech_stack": [
+    {
+     "id": "t1",
+     "src": "https://lh3.googleusercontent.com/1ZPUcY76TcoA-qYiCXERe4lTj6FoJgXDR_5_-aFYI78tXYGUp5hmLxJdlbgnbh_lpHg=w2400",
+     "title": "JavaScript"
+    },
+    {
+     "id": "t2",
+     "src": "https://lh5.googleusercontent.com/NNYMLTcl7nPRNkNErJz17gHsCD8KsXkHGmuXyxwdftUB9QURREAPClWjk7YCLKd_jKs=w2400",
+     "title": "HTML"
+    },
+    {
+     "id": "t3",
+     "src": "https://lh3.googleusercontent.com/04faxbvpOV639ZOhGpv3WQLESrzUUKGWAtSEarwiw8EGjW5E636zuPmpNHl-gJf9aH0=w2400",
+     "title": "CSS"
+    },
+    {
+     "id": "t4",
+     "src": "https://lh3.googleusercontent.com/hRjs11EL5wRR-PcNyPg0356k0v9iaot_BovbhUV3MVOiqdvUjfHiT1Tvg1Lpu-D9e4U=w2400",
+     "title": "JSON"
+    }
+   ],
+   "github": "",
+   "deploy": ""
+  },
+  {
+   "id": "p3",
+   "image": "",
+   "title": "",
+   "description": "is a fitness company which provide membership to track the health of a user and best trainers, gyms & coaches all in one app.",
+   "tech_stack": [
+    {
+     "id": "t1",
+     "src": "https://lh3.googleusercontent.com/1ZPUcY76TcoA-qYiCXERe4lTj6FoJgXDR_5_-aFYI78tXYGUp5hmLxJdlbgnbh_lpHg=w2400",
+     "title": "JavaScript"
+    },
+    {
+     "id": "t2",
+     "src": "https://lh5.googleusercontent.com/NNYMLTcl7nPRNkNErJz17gHsCD8KsXkHGmuXyxwdftUB9QURREAPClWjk7YCLKd_jKs=w2400",
+     "title": "HTML"
+    },
+    {
+     "id": "t3",
+     "src": "https://lh3.googleusercontent.com/04faxbvpOV639ZOhGpv3WQLESrzUUKGWAtSEarwiw8EGjW5E636zuPmpNHl-gJf9aH0=w2400",
+     "title": "CSS"
+    }
+   ],
+   "github": "",
+   "deploy": ""
+  },
+  {
+   "id": "p4",
+   "image": "",
+   "title": "",
+   "description": "This application allows users to search for  videos and play them within the app. The app also has sorting functionality, allowing users to sort videos by views, alphabetically, and popularity.",
+   "tech_stack": [
+    {
+     "id": "t1",
+     "src": "https://lh3.googleusercontent.com/1ZPUcY76TcoA-qYiCXERe4lTj6FoJgXDR_5_-aFYI78tXYGUp5hmLxJdlbgnbh_lpHg=w2400",
+     "title": "JavaScript"
+    },
+    {
+     "id": "t2",
+     "src": "https://lh5.googleusercontent.com/NNYMLTcl7nPRNkNErJz17gHsCD8KsXkHGmuXyxwdftUB9QURREAPClWjk7YCLKd_jKs=w2400",
+     "title": "HTML"
+    },
+    {
+     "id": "t3",
+     "src": "https://lh3.googleusercontent.com/04faxbvpOV639ZOhGpv3WQLESrzUUKGWAtSEarwiw8EGjW5E636zuPmpNHl-gJf9aH0=w2400",
+     "title": "CSS"
+    }
+   ],
+   "github": "",
+   "deploy": ""
+  }
+ ]
+}

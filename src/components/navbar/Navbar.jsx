@@ -50,7 +50,12 @@ function Navbar() {
             </Link>
           </div>
           <div>
-            <Link to="skills"smooth={true} offset={-79}duration={500}className="nav-link skills"
+            <Link
+              to="skills"
+              smooth={true}
+              offset={-79}
+              duration={500}
+              className="nav-link skills"
             >
               Skills
             </Link>
@@ -78,7 +83,12 @@ function Navbar() {
             </Link>
           </div>
           <div>
-            <a href="" className="nav-link resume" id="resume-link-1">
+            <a
+              href="./image/Riya_Shrivastava_Resume.pdf"
+              className="nav-link resume"
+              id="resume-link-1"
+              download="riya_shrivastava_resume.pdf"
+            >
               <div
                 onClick={() =>
                   openLink(

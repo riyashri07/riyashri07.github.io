@@ -26,7 +26,7 @@ function Contact() {
               <IoMdCall /> +919156913772
             </div>
             <div className="contact-location">
-              <MdLocationOn /> Pune , Maharashtra
+              <MdLocationOn /> Pune, Maharashtra
             </div>
             <div className="contact-socialLink">
               <img

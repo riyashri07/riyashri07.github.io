@@ -14,7 +14,7 @@ function About () {
           <div className="aboutMe" id="user-detail-intro">
             <span id="user-detail-name">I am Riya Shrivastava</span> A
             self-motivated and aspiring Full Stack Web Developer specialising in
-            MERN stack from Masai School. Having the ability to design web
+            MERN stack, Javascript and DSA from Masai School. Having the ability to design web
             application pages using both frontend as well as backend coding
             tools. Looking for a challenging role in a technology based
             organization that showcases one's skills and enhances one's

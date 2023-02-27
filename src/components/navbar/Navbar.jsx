@@ -50,12 +50,7 @@ function Navbar() {
             </Link>
           </div>
           <div>
-            <Link
-              to="skills"
-              smooth={true}
-              offset={-79}
-              duration={500}
-              className="nav-link skills"
+            <Link to="skills"smooth={true} offset={-79}duration={500}className="nav-link skills"
             >
               Skills
             </Link>

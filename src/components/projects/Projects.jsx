@@ -1,8 +1,7 @@
 import "./projects.css";
 import { FaGithub } from "react-icons/fa";
 import { HiExternalLink } from "react-icons/hi";
-// import ProjectSet from "./ProjectSet";
-// import data from "../../db.json";
+
 
 function Projects () {
   const openLink = (url) => {

@@ -166,7 +166,7 @@ function Contact() {
                       color="#DCE2FF"
                       textAlign="left"
                       onClick={() =>
-                        openLink("https://goo.gl/maps/iZk5aqYGHrk9kk2Z8")
+                        openLink("")
                       }
                       _hover={{
                         border: "2px solid rgba(255, 255, 255, 0.125)",

@@ -47,14 +47,14 @@ function Calender() {
         <div>
           <img
             src="https://github-readme-streak-stats.herokuapp.com?user=riyashri07&theme=sea&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D&background=355f4d"
-            alt="Ahmad Stats"
+            alt="Riya Stats"
             id="github-streak-stats"
           />
         </div>
         <div>
           <img
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=riyashri07&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=355f4d&border_radius=10&border_color=1a1a1a"
-            alt="Ahmad Language"
+            alt="Riya Language"
             id="github-top-langs"
           />
         </div>
@@ -62,7 +62,7 @@ function Calender() {
           <img
             src="https://github-readme-stats.vercel.app/api?username=riyashri07&show_icons=true&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=355f4d&border_radius=10&border_color=1a1a1a"
             // src="https://github-readme-stats.vercel.app/api?username=riyashri07&count_private=true&show_icons=true&theme=tokyonight"
-            alt="Ahmad Stats"
+            alt="Riya Stats"
             id="github-stats-card"
           />
         </div>

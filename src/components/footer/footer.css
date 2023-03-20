@@ -1,6 +1,7 @@
 .footer {
-  background-color: #e2e4e3;
+  background-color: rgba(2,15,44,1);
   padding: 20px 0px 20px 0px;
+  color: white;;
 }
 
 .love {

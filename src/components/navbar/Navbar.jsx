@@ -84,10 +84,10 @@ function Navbar() {
           </div>
           <div>
             <a
-              href="./image/Riya_Shrivastava_Resume.pdf"
+              href="https://drive.google.com/uc?id=1MIPQ5rYKrYsFW3pCB0ki44LGqTLbMEQL&export=download"
               className="nav-link resume"
               id="resume-link-1"
-              download="riya_shrivastava_resume.pdf"
+              download="Riya_Shrivastava_Resume.pdf"
             >
               <div
                 onClick={() =>
@@ -102,6 +102,26 @@ function Navbar() {
               </div>
             </a>
           </div>
+
+          {/* <div>
+            <a
+              href="https://drive.google.com/uc?id=173kc0AW6miCrWOsqeYN3ad348otgyA13&export=download"
+              className="nav-link resume"
+              id="resume-link-1"
+            >
+              <div
+                onClick={() =>
+                  openLink(
+                    "https://drive.google.com/file/d/173kc0AW6miCrWOsqeYN3ad348otgyA13/view?usp=share_link"
+                  )
+                }
+                className="navbar-resume"
+                id="resume-button-1"
+              >
+                Resume <HiDownload />
+              </div>
+            </a>
+          </div> */}
         </div>
         <div className="responce">
           <RxHamburgerMenu onClick={onOpen} />

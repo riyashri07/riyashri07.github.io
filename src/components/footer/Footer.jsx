@@ -4,7 +4,7 @@ import "./footer.css";
 function Footer() {
   return (
     <div className="footer">
-      <div className="love">Made with 🖤 by Riya</div>
+      <div className="love">Made with 💚 by Riya</div>
     </div>
   );
 }

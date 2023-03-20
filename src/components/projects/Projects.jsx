@@ -1,5 +1,5 @@
 import "./projects.css";
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { HiExternalLink } from "react-icons/hi";
 // import ProjectSet from "./ProjectSet";
 // import data from "../../db.json";
@@ -20,7 +20,7 @@ function Projects () {
           <div className="project-card-container">
             <div className="project-img">
               <img
-                src={process.env.PUBLIC_URL + "./Images/paperfury.png"}
+                src={process.env.PUBLIC_URL + "./Images/camlens.png"}
                 alt=""
               />
             </div>
@@ -125,7 +125,7 @@ function Projects () {
           <div className="project-card-container">
             <div className="project-img">
               <img
-                src={process.env.PUBLIC_URL + "./Images/zee-flix.png"}
+                src={process.env.PUBLIC_URL + "./Images/surveymonkey.png"}
                 alt=""
               />
             </div>
@@ -210,7 +210,7 @@ function Projects () {
         <div className="project-card">
           <div className="project-card-container">
             <div className="project-img">
-              <img src={process.env.PUBLIC_URL + "./Images/geeky.png"} alt="" />
+              <img src={process.env.PUBLIC_URL + "./Images/zeefive.png"} alt="" />
             </div>
             <div className="project-card-text">
               <h1 className="project-title">Flix TV</h1>
@@ -281,7 +281,7 @@ function Projects () {
         <div className="project-card">
           <div className="project-card-container">
             <div className="project-img">
-              <img src={process.env.PUBLIC_URL + "./Images/todo.png"} alt="" />
+              <img src={process.env.PUBLIC_URL + "./Images/nykka.png"} alt="" />
             </div>
             <div className="project-card-text">
               <h1 className="project-title">Todo App</h1>

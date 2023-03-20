@@ -16,7 +16,10 @@ function Home () {
             A skilled
             <strong id="user-detail-intro"> Full Stack Web Developer 💻</strong>
           </div>
-          <a href="" id="resume-link-2">
+          <a
+            href="https://drive.google.com/uc?id=1MIPQ5rYKrYsFW3pCB0ki44LGqTLbMEQL&export=download"
+            id="resume-link-2"
+          >
             <div
               onClick={() =>
                 openLink(

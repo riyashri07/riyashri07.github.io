@@ -53,10 +53,10 @@
 .project-card {
  width: 80%;
  margin: auto;
- background-color: #1a1a1a;
+ background-color: rgba(2,15,44,1);
  color: white;
  padding: 10px;
- box-shadow: rgba(202, 108, 108, 0.46) 0px 3px 8px;
+ box-shadow: rgba(53 , 95 , 77 , 0.46) 0px 3px 8px;
  border-radius: 20px;
  transition: all .3s ease-in-out;
 }
@@ -78,7 +78,7 @@
 }
 
 .project-card-container > div:nth-child(1) > img {
- border: 3px solid #8f3e41;
+ border: 3px solid #355f4d;
  border-radius: 10px;
  display: block;
  margin: auto;
@@ -94,14 +94,14 @@
 }
 
 .project-title {
- /* color: #8f3e41; */
- background: -webkit-linear-gradient(
+ color: #355f4d ;
+ /* background: -webkit-linear-gradient(
   rgb(243, 129, 123) 0%,
   rgb(203, 163, 164) 60%,
   rgb(233, 105, 224) 100%
  );
  -webkit-background-clip: text;
- -webkit-text-fill-color: transparent;
+ -webkit-text-fill-color: transparent; */
  font-size: 30px;
  font-weight: bold;
 }

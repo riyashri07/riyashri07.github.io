@@ -82,9 +82,9 @@ background: linear-gradient(45deg, #355f4d 0%,   #020f2c 100%);
 }
 
 .home-img {
- width: 350px;
- object-fit: fill;
- height: 360px;
+ width: 80%;
+ /* object-fit: fill;
+ height: 360px; */
  display: block;
  margin: auto;
  border-radius: 50%;
